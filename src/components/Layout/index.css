@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    max-width: 1140px;
+  }
+}
